@@ -32,6 +32,11 @@ let package = Package(
         .package(
             url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
             exact: "12.8.0"
+        ),
+        
+        .package(
+            url: "https://github.com/appnexus/mobile-sdk-ios-spm.git",
+            exact: Version(stringLiteral: sdkVersion)
         )
     ],
 
@@ -48,6 +53,11 @@ let package = Package(
                 .product(
                     name: "GoogleMobileAds",
                     package: "swift-package-manager-google-mobile-ads"
+                ),
+                
+                .product(
+                    name: "AppNexusSDK",
+                    package: "mobile-sdk-ios-spm"
                 )
             ]
         )
