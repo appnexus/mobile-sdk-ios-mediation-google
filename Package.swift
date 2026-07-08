@@ -6,7 +6,7 @@ let sdkVersion = "9.12.1"
 let baseUrl = "https://adsdk.bing.net/mobile/ios/releases"
 
 let googleAdapterChecksum = """
-99e764f706b3a1c31580368601036022436a1733d06885b003d9878dbd109c23
+4b634cdef535b63bc3fa2e4e54fc0c870d5c46a7a7b3e018ff1ea7ed723bd627
 """
 
 let package = Package(
