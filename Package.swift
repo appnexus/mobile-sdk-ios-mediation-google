@@ -2,11 +2,11 @@
 
 import PackageDescription
 
-let sdkVersion = "9.12.1"
+let sdkVersion = "9.12.2"
 let baseUrl = "https://adsdk.bing.net/mobile/ios/releases"
 
 let googleAdapterChecksum = """
-4b634cdef535b63bc3fa2e4e54fc0c870d5c46a7a7b3e018ff1ea7ed723bd627
+e0279bb418aa8f69e784de48ae7ff2668f71bfbcf37c0d087c8eac8d092e44cd
 """
 
 let package = Package(
